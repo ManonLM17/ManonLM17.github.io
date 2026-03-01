@@ -1,0 +1,114 @@
+ iframe {
+	
+height:70vh;
+width:70%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color:#63CEF2; 
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+.presentation {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.presentation img {
+  width: 120px;   /* plus fiable que % ici */
+  height: auto;
+}
+
+.texte-presentation {
+  flex: 1;
+  color:#000000;
+}
+th { width: 500px;}
+ul {
+  list-style-image: url(puce-zelda.png); /* image comme puce attention à l’esthétique */
+}
+
+
+#entete-de-page {
+	padding: 5px;
+	height: 100px;
+	background-color:#5091C7;
+	font-size: 32px;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-align: center;
+}
+#bloc-menu {
+	height: 36px;
+	background-color:#C9C9C9;
+	float: center;
+	color: white;
+}
+#contenu {
+	padding: 10px;
+	background-color:  #1E4566;
+	color:#4A1E66;
+}
+#infos {
+	color: #4A1E66;
+	font-style: italic;
+}
+#pied-de-page {
+	padding: 5px;
+	background-color: #C9C9C9;
+	font-size: 11px;
+}
+
+.bouton.active {
+Color:#1E4566;
+}	
+
+.bouton {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	color: #1E4566;
+	font-size: 4rem;
+	line-height: 2em;
+	margin: 0 20px; /* espace entre les boutons */
+}
+
+/*mettre une image aux bords arrondis*/
+
+.arrondie {
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+border-radius:7px;
+}
+
+.arrondie1 {
+-moz-border-radius:100px;
+-webkit-border-radius:100px;
+border-radius:100px;
+}
+
+a:link {
+  color:#1E4566;
+  text-decoration: none;
+}
+
+a:visited {
+  color:  #1E4566;
+  text-decoration: none;
+}
+
+
+a:hover {
+ color: #FFFFFF;
+ text-decoration: none;
+ 
+}
+
+a:active {
+    color: #1E4566;
+	 text-decoration: none;
+}
